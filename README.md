@@ -27,7 +27,7 @@ It integrates low-frequency Zernike figure errors and mid-to-high frequency sinu
 Visualization (Scenario3_Plotting.m): Analyzes complex wavefront degradation, Zernike term decomposition, and Ray Fan distortions. 
 This stage demonstrates that DHRT maintains micron-level consistency with Zemax even under complex micro-perturbations.
 
-1. Main Simulation Scripts
+Main Simulation Scripts:
 Numerical_verification_of_the_nominal_optical_system_calculation.m,   Phase 1.1.
 Numerical_verification_of_the_nominal_optical_system_visualization.m, Phase 1.2.
 Robustness_under_rigid_body_displacements_calculation.m,     Phase 2.1.
@@ -35,7 +35,7 @@ Robustness_under_rigid_body_displacements_visualization.m,   Phase 2.2.
 Computational_fidelity_for_complex_surface_deformations_calculation.m,     Phase 3.1.
 Computational_fidelity_for_complex_surface_deformations_visualization.m,   Phase 3.2.
 
-2. Core Function Library
+Core Function Library
 calculate_reflection_DHRT.m: DHRT method for OAP
 generate_oap_points.m: Generates OAP point clouds with integrated misalignment or surface sag(This point data is the same as FEA data).
 fit_oap.m: Reconstructs geometric parameters (Vertex/Focus) from sampled point clouds.
